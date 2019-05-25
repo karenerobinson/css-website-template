@@ -23,6 +23,10 @@
     align-items:center;
     justify-content:center;
     pointer-events: none;
+
+    overflow-y: auto;
+    max-width:90%;
+    max-height:75%;
 }
 
 .modal__bg{
@@ -43,7 +47,11 @@
 .modal__helper{
     position: relative;
     text-align: center;
+    vertical-align:text-top;  /* no effect? */
+    max-height:100%;          /* no effect? */
+
 }
+
 .modal__generic .close{
     position: absolute;
     top: 5px;
@@ -53,16 +61,7 @@
     font-weight: bold;
     text-decoration: none;
     color: #333;
-}
-
-@media (max-width:767px){
-    .modal__generic{
-        max-width:90%;
-    }
-    .modal__helper{
-        overflow-y: scroll;
-        max-height: 400px;
-    }
+    cursor: pointer;
 }
 
 /* Specific Modals */
