@@ -1,16 +1,25 @@
 /* To be used in conjunction with styles.css.
 /* colors for modals are in modals.css */
 
+/* This file is for colors, fonts, and 
+/* in a few instances for background images.
+/* Font sizes are in styl-structure.css
+/* since they are tied to element sizes. */
+
 /* color reference: https://www.colorhexa.com/6689e7 */
 
 /* color #444b52 (or almost #445) matches 
 /* the black wordmark with its 0.6 transparency 
 /* against the #abc background */
 
+html{    font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%  }
+
+
 body {
     color: #333;
     background-color:#ffffff;
     webkit-tap-highlight-color: #6689E7;
+    font-family:"Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 header {
@@ -24,8 +33,30 @@ header {
     opacity: 0.6;
 }
 
+header .intro-heading {
+    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+header .intro-lead-in {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif;
+    font-style: italic;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
 h2 {
     color: #333;
+}
+
+section h3.section-subheading {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif;
+    font-weight: 400;
+
 }
 
 .text-primary {color: #6689E7;}
@@ -87,6 +118,14 @@ a:hover,a:focus{color:#9ad}
 
 footer {
     background-color:#eee;
+}
+
+footer div.copyright {
+    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+footer ul.quicklinks {
+    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 /* Featured Image */

@@ -2,13 +2,11 @@
 *:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 
 html{
-    font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%
 }
 
 body {
     margin:0;
     overflow-x: hidden;
-    font-family:"Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size:15px;
     line-height:1.42857143;
 }
@@ -52,16 +50,12 @@ header .intro-text-half {
 }
 
 header .intro-heading {
-    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
     text-transform: uppercase;
     margin-bottom: 25px;
     font-size: 50px;
-    font-weight: 700;
     line-height: 50px;
 }
 header .intro-lead-in {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif;
-    font-style: italic;
     margin-bottom: 25px;
     font-size: 22px;
     line-height: 22px;
@@ -81,7 +75,6 @@ header .intro-lead-in {
     header  .intro-heading {
         margin-bottom: 50px;
         font-size: 75px;
-        font-weight: 700;
         line-height: 75px;
     }
 
@@ -114,10 +107,6 @@ header .intro-lead-in {
 
 /* Heading sizes, style */
 
-h1,h2,h3,h4,h5,h6 {
-    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-}
 
 h2 {
     text-transform: uppercase;
@@ -136,10 +125,8 @@ section h3.section-subheading {
     margin-bottom: 35px;
     margin-top:0;
     text-transform: none;
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
-    font-weight: 400;
 }
 
 h1,.h1,h2,.h2,h3,.h3{margin-top:21px;margin-bottom:10.5px}
@@ -388,7 +375,6 @@ footer div.copyright {
     text-transform: none;
     width:100%;
     align:center;
-    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
 /*    line-height: 40px; */
 }
 
@@ -396,7 +382,6 @@ footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
 }
 
