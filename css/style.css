@@ -1,0 +1,402 @@
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+
+html{
+    font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%
+}
+
+body {
+    margin:0;
+    overflow-x: hidden;
+    font-family:"Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:15px;
+    line-height:1.42857143;
+}
+
+footer,header,main,nav,section{display:block}
+
+/* Header Stuff */
+
+header {
+    text-align: center;
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.heading-wordmark {
+    max-width:80%;
+    height: auto;
+}
+
+
+@media(min-width: 768px) {
+    .heading-wordmark {
+	height:100px;
+	width: auto;
+    }
+}
+
+header .intro-text-full {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+header .intro-text-half {
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+header .intro-heading {
+    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+}
+header .intro-lead-in {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif;
+    font-style: italic;
+    margin-bottom: 25px;
+    font-size: 22px;
+    line-height: 22px;
+}
+
+@media(min-width:768px) {
+    header .intro-text-full {
+        padding-top: 300px;
+        padding-bottom: 200px;
+    }
+
+    header .intro-text-half {
+        padding-top: 300px;
+        padding-bottom: 50px;
+    }
+
+    header  .intro-heading {
+        margin-bottom: 50px;
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 75px;
+    }
+
+    header  .intro-lead-in {
+        margin-bottom: 25px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
+
+
+/* Vertical space - feature images */
+
+.feature-image,.feature-image-responsive {
+    padding:0;
+    margin:0;
+    border:0;
+    width:100%;
+    height:auto;
+    text-align: center;
+    background-attachment: scroll;
+    background-position: top center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+/* Heading sizes, style */
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+h2 {
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 3em;
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+    line-height:1.1;
+    color:inherit
+}
+
+
+section h3.section-subheading {
+    margin-bottom: 35px;
+    margin-top:0;
+    text-transform: none;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+h1,.h1,h2,.h2,h3,.h3{margin-top:21px;margin-bottom:10.5px}
+
+h1,.h1{font-size:39px}
+h2,.h2{font-size:32px}
+h3,.h3{font-size:26px}
+h4,.h4{font-size:19px}
+h5,.h5{font-size:15px}
+h6,.h6{font-size:13px}
+
+@media(max-width:250px) {
+    h1,.h1{font-size:32px}
+    h2,.h2{font-size:26px}
+    h3,.h3{font-size:19px}
+    h4,.h4{font-size:15px}
+    h5,.h5{font-size:13px}
+    h6,.h6{font-size:10px}
+
+    .intro-heading {font-size:42px}
+    .intro-lead-in {font-size:17px !important}
+}
+
+@media(max-width:190px) {
+    h1,.h1{font-size:26px}
+    h2,.h2{font-size:18px}
+    h3,.h3{font-size:15px}
+    h4,.h4{font-size:13px}
+    h5,.h5{font-size:10px}
+    h6,.h6{font-size:08px}
+
+    .intro-heading {font-size:36px}
+    .intro-lead-in {font-size:14px !important}
+
+    .intro-text-full {padding-bottom: 10px}
+    .intro-text-half {padding-bottom:0}
+}
+
+@media(max-width:130px) {
+    h1,.h1{font-size:18px}
+    h2,.h2{font-size:15px}
+    h3,.h3{font-size:13px}
+    h4,.h4{font-size:10px}
+    h5,.h5{font-size:08px}
+    h6,.h6{font-size:06px}
+
+    .intro-heading {font-size:24px}
+    .intro-lead-in {font-size:10px !important}
+
+}
+
+/* Other */
+
+
+.text-center{text-align:center}
+
+@media print {
+    p,h2,h3{orphans:3;widows:3}
+    h2,h3{page-break-after:avoid}
+}
+
+/* Sections */
+
+section {
+    padding: 80px 0;
+    padding-bottom: 40px;
+}
+
+@media(min-width:1440px) {
+    section {
+	padding: 80px 0;
+	padding-bottom: 80px;
+    }
+}
+
+@media(min-width:1440px) {
+    section {
+	padding: 100px 0;
+	padding-bottom: 120px;
+    }
+}
+
+/* Links .. lol nobody usses underline any more */
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+    text-decoration:none;
+}
+
+/* Containers */
+
+.container{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}
+
+@media (min-width:768px){.container{width:750px}.row{padding-top:0%}}
+@media (min-width:992px){.container{width:970px}}
+@media (min-width:1200px){.container{width:1170px}}
+
+/* Row and Column Definitions */
+
+.row{margin-left:-15px;margin-right:-15px;}
+
+.container:before,.container:after,.row:before,.row:after,.nav:before,.nav:after,.navbar:before,.navbar:after,.navbar-header:before,.navbar-header:after,.navbar-collapse:before,.navbar-collapse:after,.pager:before,.pager:after,.panel-body:before,.panel-body:after,.modal-footer:before,.modal-footer:after{content:" ";display:table}
+  
+.container:after,.container-fluid:after,.row:after,.form-horizontal .form-group:after,.btn-toolbar:after,.btn-group-vertical>.btn-group:after,.nav:after,.navbar:after,.navbar-header:after,.navbar-collapse:after,.pager:after,.panel-body:after,.modal-footer:after{clear:both}
+
+
+.col-xs-1,.col-sm-1,.col-md-1,.col-lg-1,.col-xs-2,.col-sm-2,.col-md-2,.col-lg-2,.col-xs-3,.col-sm-3,.col-md-3,.col-md-3a,.col-md-3b,.col-lg-3,.col-xs-4,.col-sm-4,.col-md-4,.col-lg-4,.col-xs-5,.col-sm-5,.col-md-5,.col-lg-5,.col-xs-6,.col-sm-6,.col-md-6,.col-lg-6,.col-xs-7,.col-sm-7,.col-md-7,.col-lg-7,.col-xs-8,.col-sm-8,.col-md-8,.col-lg-8,.col-xs-9,.col-sm-9,.col-md-9,.col-lg-9,.col-xs-10,.col-sm-10,.col-md-10,.col-lg-10,.col-xs-11,.col-sm-11,.col-md-11,.col-lg-11,.col-xs-12,.col-sm-12,.col-md-12,.col-lg-12{position:relative;min-height:1px;padding-left:15px;padding-right:15px}
+
+
+.col-xs-1,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12{float:left}
+
+.col-xs-12{width:100%}.col-xs-11{width:91.66666667%}.col-xs-10{width:83.33333333%}.col-xs-9{width:75%}.col-xs-8{width:66.66666667%}
+.col-xs-7{width:58.33333333%}.col-xs-6{width:50%}.col-xs-5{width:41.66666667%}.col-xs-4{width:33.33333333%}
+.col-xs-3{width:25%}.col-xs-2{width:16.66666667%}.col-xs-1{width:8.33333333%}
+
+@media (min-width:768px){
+    .col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12{float:left}
+    .col-sm-12{width:100%}.col-sm-11{width:91.66666667%}.col-sm-10{width:83.33333333%}.col-sm-9{width:75%}.col-sm-8{width:66.66666667%}
+    .col-sm-7{width:58.33333333%}.col-sm-6{width:50%}.col-sm-5{width:41.66666667%}.col-sm-4{width:33.33333333%}.col-sm-3{width:25%}
+    .col-sm-2{width:16.66666667%}.col-sm-1{width:8.33333333%}
+
+    .col-md-1,.col-md-2,.col-md-3,.col-md-3a,.col-md-3b,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{float:left}
+    .col-md-8{width:66.66666667%}.col-md-7{width:58.33333333%}.col-md-6{width:50%}.col-md-5{width:41.66666667%}
+    .col-md-4{width:33.33333333%;padding:0 2.5%}.col-md-3b{width:30%}.col-md-3{width:25%}.col-md-3a{width:20%}.col-md-2{width:16.66666667%}.col-md-1{width:8.33333333%}
+
+    .col-left{padding-left:15%}
+    .col-right{padding-right:15%}
+    .col-mid{left:25%}
+
+    .col-md-3a {padding-right:0}
+    .col-md-3b {padding-left:0}
+/* above 768 the space looks nice; below it they won't be on the same line. */
+
+}    
+
+@media (min-width:992px){
+    .col-md-1,.col-md-2,.col-md-3,.col-md-3a,.col-md-3b,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{float:left}
+    .col-md-12{width:100%}.col-md-11{width:91.66666667%}.col-md-10{width:83.33333333%}.col-md-9{width:75%}
+    .col-md-8{width:66.66666667%}.col-md-7{width:58.33333333%}.col-md-6{width:50%}.col-md-5{width:41.66666667%}
+    .col-md-4{width:33.33333333%}.col-md-3b{width:30%}.col-md-3{width:25%}.col-md-3a{width:20%}.col-md-2{width:16.66666667%}.col-md-1{width:8.33333333%}
+}
+
+@media (min-width:1200px){
+    .col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{float:left}
+    .col-lg-12{width:100%}.col-lg-11{width:91.66666667%}.col-lg-10{width:83.33333333%}.col-lg-9{width:75%}
+    .col-lg-8{width:66.66666667%}.col-lg-7{width:58.33333333%}.col-lg-6{width:50%}.col-lg-5{width:41.66666667%}
+    .col-lg-4{width:33.33333333%}.col-lg-3{width:25%}.col-lg-2{width:16.66666667%}.col-lg-1{width:8.33333333%}
+}
+
+@media(max-width:768px){ .col-md-3b{padding-bottom:20px;}}
+
+table{background-color:transparent}
+.table{width:100%;max-width:100%;margin-bottom:21px}
+
+/* Portfolio / project links */
+
+.service-heading {
+    margin: 15px 0;
+    text-transform: none;
+}
+
+/* Image Handling */
+
+img{border:0}
+
+img{vertical-align:middle}
+
+  /* Basic image shapes */
+
+.img-responsive,.thumbnail>img,.thumbnail a>img,.carousel-inner>.item>img,.carousel-inner>.item>a>img{
+    display:block;width:100% \9;max-width:100%;height:auto
+}
+.img-rounded{border-radius:6px}
+.img-circle{border-radius:50%}
+
+
+  /* Specific image types */
+
+div.corpproducts-image {
+    width: 150px;
+    height: 150px;
+    border: 7px solid;
+    position:relative;
+}
+
+@media(max-width:250px){div.corpproducts-image {width:100px;height:100px;}}
+@media(max-width:190px){div.corpproducts-image {width:70px;height:70px;}}
+
+div.event-image {
+    max-width: 120px;
+    max-height: 120px;
+    border: 4px solid;
+    position:relative;
+    margin-left:20px;
+    bottom:0;
+}
+
+div.icon-image {
+    width: 50px;
+    height: 50px;
+    border: 0px;
+    position:absolute;
+    display:inline-block;
+    bottom:0;
+    left:0;
+}
+
+
+div.modal-image {
+    width: 100px;
+    height: 100px;
+    border: 7px solid;
+    min-height: 150px;
+    min-width:150px;
+    position:relative;
+}
+
+   /* font-awesome-like (fa-like) hack */
+
+.fa-like {
+height:75%;width:75%;padding:10%;margin:12.5%;
+position:absolute;left:0
+}
+
+   /* Links & hover behavior */
+
+.portfolio-link{
+    cursor: pointer;
+    display:block;
+}
+
+/* Footers */
+
+footer {
+    padding: 25px 0;
+    text-align: center;
+}
+
+footer div.copyright {
+/*footer span.copyright { */
+    text-transform: uppercase;
+    text-transform: none;
+    width:100%;
+    align:center;
+    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+/*    line-height: 40px; */
+}
+
+footer ul.quicklinks {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+

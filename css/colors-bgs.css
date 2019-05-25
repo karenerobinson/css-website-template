@@ -1,0 +1,138 @@
+/* To be used in conjunction with styles.css.
+/* colors for modals are in modals.css */
+
+/* color reference: https://www.colorhexa.com/6689e7 */
+
+/* color #444b52 (or almost #445) matches 
+/* the black wordmark with its 0.6 transparency 
+/* against the #abc background */
+
+body {
+    color: #333;
+    background-color:#ffffff;
+    webkit-tap-highlight-color: #6689E7;
+}
+
+header {
+    color: #444b52; 
+    background-color:#abc;
+/*    background-image: url('../img/header-bg.jpg');
+*/
+}
+
+.heading-wordmark {
+    opacity: 0.6;
+}
+
+h2 {
+    color: #333;
+}
+
+.text-primary {color: #6689E7;}
+
+a.active {
+    outline: 0;
+    color:#183b98;
+    text-decoration:none;
+}
+
+.service-heading {
+    color:#333;
+}
+
+.text-muted{color:#444b52}
+
+/* Images */
+
+div.timeline-image {
+    background-color: #abc;
+    color:#f1f1f1;
+}
+
+.img-thumbnail {
+    background-color:#ffffff;
+    border-color:#ecf0f1;
+}
+
+div.corpproducts-image {
+    border-color:#8899c5;
+
+}
+
+div.event-image {
+    border-color:#f1f1f1;
+}
+
+
+div.modal-image {
+    border-color:#f1f1f1;
+}
+
+/* Link Behavior */
+
+a{color:#6689E7}
+a:hover,a:focus{color:#9ad}
+
+   /* For Portfolio Links (the dots) */
+
+.portfolio-link{
+    color: #6689E7;
+}
+
+.portfolio-link:hover{
+    color: #183b98;
+}
+
+/* Footer */
+
+footer {
+    background-color:#eee;
+}
+
+/* Featured Image */
+   /* This is to create a responsive image 
+   /* e.g. to fill out what looks like the bottom of the header*/
+
+.feature-image,.feature-image-responsive {
+    color:#abc;
+    background-color:#abc;
+    border-color:#abc;
+}
+
+.feature-image-responsive {
+    background-image: url('../img/otis-flowers-header.jpg');
+}
+
+@media (min-width:425px){
+    .feature-image-responsive{
+	min-height:250px;
+	background-image: url('../img/otis-flowers-header.jpg');
+    }
+}
+
+@media (min-width:768px)
+{
+    .feature-image-responsive
+    {
+	border-top:30px;
+	border-style:solid;
+	min-height:300px;
+	background-image: url('../img/otis-flowers-header.jpg');
+    }
+}
+@media (min-width:992px){
+    .feature-image-responsive{
+	min-height:180px;
+	background-image: url('../img/otis-flowers-header.jpg');
+}}
+@media (min-width:1024px){.feature-image-responsive{min-height:200px;}}
+@media (min-width:1200px){.feature-image-responsive{min-height:210px;}}
+@media (min-width:1440px){.feature-image-responsive{min-height:250px;}}
+
+
+/* Timeline, see timeline.css */
+
+.timeline:before {
+    background-color: #f1f1f1;
+}
+
