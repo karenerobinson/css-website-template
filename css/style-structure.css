@@ -267,10 +267,8 @@ a.active {
 }    
 
 @media (min-width:992px){
-    .col-md-1,.col-md-2,.col-md-3,.col-md-3a,.col-md-3b,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{float:left}
     .col-md-12{width:100%}.col-md-11{width:91.66666667%}.col-md-10{width:83.33333333%}.col-md-9{width:75%}
-    .col-md-8{width:66.66666667%}.col-md-7{width:58.33333333%}.col-md-6{width:50%}.col-md-5{width:41.66666667%}
-    .col-md-4{width:33.33333333%}.col-md-3b{width:30%}.col-md-3{width:25%}.col-md-3a{width:20%}.col-md-2{width:16.66666667%}.col-md-1{width:8.33333333%}
+    .col-md-3b{width:30%}.col-md-3{width:25%}.col-md-3a{width:20%}.col-md-2{width:16.66666667%}.col-md-1{width:8.33333333%}
 }
 
 @media (min-width:1200px){
@@ -316,8 +314,55 @@ div.corpproducts-image {
     position:relative;
 }
 
-@media(max-width:250px){div.corpproducts-image {width:100px;height:100px;}}
+@media(max-width:250px){
+    div.corpproducts-image {width:100px;height:100px;}
+    section#corpproducts {padding-top:20px;}
+}
+
 @media(max-width:190px){div.corpproducts-image {width:70px;height:70px;}}
+
+
+div.ingredients-image {
+    width: 75%;
+    height: auto;
+    border: 7px solid;
+    min-width: 150px;
+    max-width:300px;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    right:0;
+}
+
+@media(max-width:190px){div.ingredients-image {min-width:70px;height:auto;}}
+
+@media(min-width:768px){
+    div.ingredients-image {
+	margin-left:auto;
+	margin-right:0
+    }
+}
+
+.img-text {
+    max-height:30px;
+    display:inline;
+}
+
+@media(max-width:992px){
+    div.vocabulary{
+	text-align:left;padding-left:20px;padding-right:auto;
+    }
+
+    .definition{
+	display:block;padding-left:15%
+    }
+}
+
+@media(max-width:768px){
+    div.vocabulary{
+	padding-left:20%;padding-right:auto;
+    }
+}
 
 div.event-image {
     max-width: 120px;
