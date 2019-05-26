@@ -348,9 +348,13 @@ div.ingredients-image {
     display:inline;
 }
 
+div.vocabulary{
+	text-align:left;
+}
+
 @media(max-width:992px){
     div.vocabulary{
-	text-align:left;padding-left:20px;padding-right:auto;
+	padding-left:20px;padding-right:auto;
     }
 
     .definition{
